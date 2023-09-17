@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #2d2834; */
+  background: #fcfcfc;
+  color: #9c1313bc;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.transformation {
+  padding: 2rem 16rem 2rem 16rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.currencys {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 0.5rem;
+}
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.action-form {
+  all: unset !important;
+}
+
+select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+
+  border: 1px solid #9c1313bc;
+  border-radius: 0.25em;
+
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+form {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 25ch;
+  border: 1px;
+  border-radius: 0.25em;
+
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  text-align: start;
+}
+
+input {
+  height: 2.1rem;
+  border: 1px solid #9c1313bc;
+}
+
+.btn {
+  padding: 1.2rem 2.6rem;
+  text-decoration: none;
+  border-radius: 9px;
+  border-color: #9c1313bc;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #9c1313bc;
+  color: white;
+  border: none;
+}
+
+.btn-currencies {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  border-radius: 25rem;
+  padding: 1rem 1.4rem;
+}
+
+.btn-currencies:hover {
+  background-color: #9c1313bc;
+  color: white;
+  border: none;
+}
+
+.amount-box {
+  width: 20rem;
+}
+
+.btn--submit {
+  width: 20rem;
+}
+
+.h1-currencies {
+  text-align: center;
+  color: black;
+}
+@media (max-width: 1200px) {
+}

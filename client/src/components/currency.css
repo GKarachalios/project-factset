@@ -1,0 +1,39 @@
+.nomisma {
+  display: flex;
+  gap: 12rem;
+
+  justify-content: space-between;
+  text-align: start;
+}
+
+.nomisma-value {
+  text-align: start;
+}
+
+.btn-add {
+  height: 1rem;
+}
+
+.add-remove-form {
+  display: flex;
+  gap: 12rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-of-currencies {
+  padding-bottom: 1rem;
+}
+.value-list {
+  width: 30rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.the-two-col-of-currencies-values {
+  width: 30rem;
+  display: flex;
+  gap: 25rem;
+  justify-content: space-between;
+}
