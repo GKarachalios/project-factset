@@ -8,7 +8,6 @@ const channelSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-
   BaseCurrency: {
     type: String,
     required: true,

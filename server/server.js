@@ -19,25 +19,6 @@ const connectionParams = {
   useUnifiedTopology: true,
 };
 
-// fetching data from node to react without mongodb
-//app.get("/api", (req, res) => {
-//res.json({
-//  currencies: [
-//  { id: 0, name: "Euro", exist: "True" },
-// { id: 1, name: "Us Dollar", exist: "True" },
-//  { id: 2, name: "British Pound", exist: "True" },
-// { id: 3, name: "Indian Rupee", exist: "True" },
-//  { id: 4, name: "Australian Dollar", exist: "True" },
-// { id: 5, name: "Canadian Dollar", exist: "False" },
-// { id: 6, name: "Singapore Dollar", exist: "False" },
-// { id: 7, name: "Malaysian Ringgit", exist: "False" },
-// { id: 8, name: "Japansese Yen", exist: "False" },
-// { id: 9, name: "Swiss Franc", exist: "False" },
-// { id: 10, name: "Chinese Yuan Renminbi", exist: "False" },
-// ],
-// });
-//});
-
 //connection with my database
 
 mongoose
